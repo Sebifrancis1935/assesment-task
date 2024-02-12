@@ -18,29 +18,29 @@ Before you begin, ensure you have the following installed on your system:
 
 1. Clone the repository to your local machine:
 
-https://github.com/Sebifrancis1935/assesment-task
+    https://github.com/Sebifrancis1935/assesment-task
 
 
 2. Navigate to the project directory:
 
-cd assesment-task
+    cd assesment-task
 
 3. Install the project dependencies using pip:
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 4. Run the Django migrations to create the database schema:
 
-python manage.py makemigrations
-python manage.py migrate
+    python manage.py makemigrations
+    python manage.py migrate
 
 5. Create a superuser to access the Django admin site:
 
-python manage.py createsuperuser
+    python manage.py createsuperuser
 
 6. Start the Django development server:
 
-python manage.py runserver
+    python manage.py runserver
 
 
 7. Access the application in your web browser at [http://localhost:8000/](http://localhost:8000/)
