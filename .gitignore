@@ -1,0 +1,15 @@
+# Ignore the virtual environment directory
+auth/
+
+# Ignore database files
+db.sqlite3
+
+# Ignore IDE/editor-specific files
+.vscode/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore local settings
+*.env
